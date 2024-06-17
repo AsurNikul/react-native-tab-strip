@@ -1,7 +1,8 @@
 # `react-native-tab-strip`
 
-[![npm version](https://www.npmjs.com/package/react-native-tab-strip)](https://www.npmjs.com/package/react-native-tab-strip)
-[![Monthly Downloads](https://img.shields.io/npm/dm/react-native-segmented-control-tab.svg?style=flat-square)](https://www.npmjs.com/package/react-native-tab-strip)
+[![npm](https://img.shields.io/npm/v/react-native-tab-strip?style=flat-square "npm version")](https://www.npmjs.com/package/react-native-tab-strip)
+
+[![Monthly Downloads](https://img.shields.io/npm/dm/react-native-tab-strip?style=flat-square)](https://www.npmjs.com/package/react-native-tab-strip)
 
 An animated tab bar component for React Native.
 
