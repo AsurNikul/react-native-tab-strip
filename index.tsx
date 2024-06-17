@@ -18,7 +18,7 @@ interface TopBarProps {
   itemContainerStyle?: ViewStyle;
   selectedTxtStyle?: TextStyle;
   txtStyle?: TextStyle;
-  onItemPress?: (item: any, index: number) => void;
+  onTabPress?: (item: any, index: number) => void;
   itemWidth: number;
   tabBarBackground?: string;
   tabBarActiveItemColor?: string;
@@ -37,7 +37,7 @@ const TopBar = (props: TopBarProps) => {
     itemContainerStyle,
     selectedTxtStyle,
     txtStyle,
-    onItemPress,
+    onTabPress,
     itemWidth,
     tabBarBackground,
     tabBarActiveItemColor,
@@ -60,8 +60,8 @@ const TopBar = (props: TopBarProps) => {
       useNativeDriver: true,
     }).start();
     setCurrentInd(index);
-    if (!!onItemPress) {
-      onItemPress(item, index);
+    if (!!onTabPress) {
+      onTabPress(item, index);
     }
   };
   return (

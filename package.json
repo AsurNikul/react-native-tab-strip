@@ -1,0 +1,40 @@
+{
+  "name": "react-native-tab-strip",
+  "version": "1.0.3",
+  "description": "An animated tab bar component for React Native.",
+  "main": "index.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/AsurNikul/react-native-tab-strip.git"
+  },
+  "keywords": [
+    "react-native",
+    "tab-bar",
+    "android",
+    "ios",
+    "animated",
+    "component",
+    "tabBar",
+    "segment-control",
+    "scrollable",
+    "tabs",
+    "animated",
+    "UI",
+    "segment",
+    "customizable",
+    "swipe"
+  ],
+  "author": "Nik Solanki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AsurNikul/react-native-tab-strip/issues"
+  },
+  "homepage": "https://github.com/AsurNikul/react-native-tab-strip#readme",
+  "peerDependencies": {
+    "react": "18.2.0",
+    "react-native": "0.72.5"
+  }
+}

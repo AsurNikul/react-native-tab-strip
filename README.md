@@ -26,7 +26,7 @@ npm:
 npm install --save react-native-tab-strip
 ```
 
-Video Demo
+Image Demo
 Here's a quick demo of react-native-tab-strip:
 
 | iOS                                 | Android                                 |
@@ -65,12 +65,10 @@ import AnimatedTabBar from "react-native-tab-strip";
 return (
   <AnimatedTabBar
     // required
-    data={[{ title: "Tab 1", title: "Tab 2" }]}
+    data={[{ title: "Tab 1" }, { title: "Tab 2" }]}
     // required
     itemWidth={100}
-    onTabPress={(item, index) => {
-      console.log(`Pressed tab ${index + 1}: ${item} `);
-    }}
+    onItemPress={() => {}}
   />
 );
 ```
