@@ -91,7 +91,7 @@ const TopBar = (props: TopBarProps) => {
             styles.selectedItemContainer,
             selectedItemContainerStyle,
             {
-              backgroundColor: tabBarActiveItemColor ? tabBarActiveItemColor : "white",
+              backgroundColor: tabBarActiveItemColor ? tabBarActiveItemColor : "#ffff",
               width: ITEM_WIDTH,
               transform: [
                 {
@@ -118,7 +118,7 @@ const TopBar = (props: TopBarProps) => {
                     ? "transparent"
                     : tabBarInactiveItemColor
                     ? tabBarInactiveItemColor
-                    : "white",
+                    : "#f1f1f1",
                   marginLeft: isCurrent ? 2 : 0,
                 },
               ]}

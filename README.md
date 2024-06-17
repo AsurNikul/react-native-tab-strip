@@ -1,6 +1,7 @@
 # `react-native-tab-strip`
 
-![Supports iOS and Android][support-badge]![Github Action Badge][gha-badge] ![npm][npm-badge] [![Lean Core Extracted][lean-core-badge]][lean-core-issue]
+[![npm version](https://www.npmjs.com/package/react-native-tab-strip)](https://www.npmjs.com/package/react-native-tab-strip)
+[![Monthly Downloads](https://img.shields.io/npm/dm/react-native-segmented-control-tab.svg?style=flat-square)](https://www.npmjs.com/package/react-native-tab-strip)
 
 An animated tab bar component for React Native.
 
@@ -29,9 +30,13 @@ npm install --save react-native-tab-strip
 Image Demo
 Here's a quick demo of react-native-tab-strip:
 
-| iOS                                 | Android                                 |
-| ----------------------------------- | --------------------------------------- |
-| <img src="./ios.png" width="320" /> | <img src="./android.png" width="320" /> |
+### Android
+
+![Demo](https://github.com/AsurNikul/react-native-tab-strip/blob/master/android.png)
+
+### iOS
+
+![Demo](https://github.com/AsurNikul/react-native-tab-strip/blob/master/ios.png)
 
 react-native-tab-strip is a versatile and animated tab bar component designed for React Native applications. It provides an intuitive interface for navigating between tabs with customizable styles and smooth
 
@@ -68,7 +73,9 @@ return (
     data={[{ title: "Tab 1" }, { title: "Tab 2" }]}
     // required
     itemWidth={100}
-    onItemPress={() => {}}
+    onTabPress={(item, index) => {
+      console.log(item, "this is item", index);
+    }}
   />
 );
 ```
