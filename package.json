@@ -1,6 +1,6 @@
 {
   "name": "react-native-tab-strip",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "An animated tab bar component for React Native.",
   "main": "index.tsx",
   "scripts": {
