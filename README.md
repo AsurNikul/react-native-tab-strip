@@ -31,13 +31,18 @@ npm install --save react-native-tab-strip
 Image Demo
 Here's a quick demo of react-native-tab-strip:
 
-### Android
+### Android vs iOS
 
-![Demo](https://github.com/AsurNikul/react-native-tab-strip/blob/master/android.png)
-
-### iOS
-
-![Demo](https://github.com/AsurNikul/react-native-tab-strip/blob/master/ios.png)
+<table>
+  <tr>
+    <td><strong>Android</strong></td>
+    <td><strong>iOS</strong></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/AsurNikul/react-native-tab-strip/blob/master/android.png" alt="Android Demo" width="300" height="500"></td>
+    <td><img src="https://github.com/AsurNikul/react-native-tab-strip/blob/master/ios.png" alt="iOS Demo" width="300" height="500"></td>
+  </tr>
+</table>
 
 react-native-tab-strip is a versatile and animated tab bar component designed for React Native applications. It provides an intuitive interface for navigating between tabs with customizable styles and smooth
 
